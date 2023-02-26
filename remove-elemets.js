@@ -12,16 +12,16 @@ function removeElements() {
 		startWatchBtn.click();
 		console.log('startWatchBtn clicked');
 	}
-	if (cookieBanner) {
-		cookieBanner.remove();
+	if (cookieBanner && cookieBanner.style.display != 'none') {
+		cookieBanner.style.display = 'none';
 		console.log('cookieBanner removed');
 	}
-	if (footerBanner) {
-		footerBanner.remove();
+	if (footerBanner && footerBanner.style.display != 'none') {
+		footerBanner.style.display = 'none';
 		console.log('footerBanner removed');
 	}
-	if (primeOffers) {
-		primeOffers.remove();
+	if (primeOffers && primeOffers.style.display != 'none') {
+		primeOffers.style.display = 'none';
 		console.log('primeOffers removed');
 	}
 }
