@@ -5,6 +5,7 @@ function removeElements() {
 	var startWatchBtn = document.querySelector('.gRbxbd > button:nth-child(1)');
 	var primeOffers = document.querySelector('.bZVrjx.prime-offers');
 	var signupGate = document.querySelector('.bHknAw');
+	var signupGate2 = document.querySelector('.bANGbT');
 	if (chatButton) {
 		chatButton.click();
 		console.log('chatButton clicked');
@@ -28,6 +29,10 @@ function removeElements() {
 	if (signupGate && signupGate.style.display != 'none') {
 		signupGate.style.display = 'none';
 		console.log('signupGate removed');
+	}
+	if (signupGate2 && signupGate2.style.display != 'none') {
+		signupGate2.style.display = 'none';
+		console.log('signupGate2 removed');
 	}
 }
 setInterval(removeElements, 500);
