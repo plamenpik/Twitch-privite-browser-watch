@@ -1,14 +1,14 @@
 {
   "manifest_version": 2,
   "name": "Twitch Private Browser Watch",
-  "version": "1.4.1",
+  "version": "1.5",
   
   "author": "Plamen Kinov",
 
   "description": "Remove some elements from Twitch.tv when open in private browser.",
   
   "icons": {
-    "48": "hide-icon.svg"
+    "48": "hide-icon.png"
   },
 
   "content_scripts": [

@@ -1,5 +1,6 @@
 function removeElements() {	
 	var cookieBanner = document.querySelector('.kBprba > div:nth-child(1)');
+	var cookieBannerClip = document.querySelector('div.bYReYr:nth-child(1)');
 	var footerBanner = document.getElementById('twilight-sticky-footer-root');
 	var chatButton = document.querySelector('.ScCoreButton-sc-ocjdkq-0.dulmVz.ScButtonIcon-sc-9yap0r-0.gmVOFh');
 	var startWatchBtn = document.querySelector('.gRbxbd > button:nth-child(1)');
@@ -17,6 +18,10 @@ function removeElements() {
 	if (cookieBanner && cookieBanner.style.display != 'none') {
 		cookieBanner.style.display = 'none';
 		console.log('cookieBanner removed');
+	}
+	if (cookieBannerClip && cookieBannerClip.style.display != 'none') {
+		cookieBannerClip.style.display = 'none';
+		console.log('cookieBannerClip removed');
 	}
 	if (footerBanner && footerBanner.style.display != 'none') {
 		footerBanner.style.display = 'none';
