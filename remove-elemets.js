@@ -3,7 +3,7 @@ function removeElements() {
 	var cookieBannerClip = document.querySelector('div.bYReYr:nth-child(1)');
 	var footerBanner = document.getElementById('twilight-sticky-footer-root');
 	var chatButton = document.querySelector('button.ScCoreButton-sc-ocjdkq-0.eBrQii.ScButtonIcon-sc-9yap0r-0.bXAhAg');
-	var startWatchBtn = document.querySelector('button.ScCoreButton-sc-ocjdkq-0.ScCoreButtonPrimary-sc-ocjdkq-1.itFOsv.gmCwLG');
+	//var startWatchBtn = document.querySelector('button.ScCoreButton-sc-ocjdkq-0.ScCoreButtonPrimary-sc-ocjdkq-1.itFOsv.gmCwLG');
 	var primeOffers = document.querySelector('.prime-offers');
 	var signupGate = document.querySelector('.bHknAw');
 	var signupGate2 = document.querySelector('.bANGbT');
@@ -11,10 +11,10 @@ function removeElements() {
 		chatButton.click();
 		console.log('chatButton clicked');
 	}
-	if (startWatchBtn) {
-		startWatchBtn.click();
-		console.log('startWatchBtn clicked');
-	}
+	//if (startWatchBtn) {
+	//	startWatchBtn.click();
+	//	console.log('startWatchBtn clicked');
+	//}
 	if (cookieBanner && cookieBanner.style.display != 'none') {
 		cookieBanner.style.display = 'none';
 		console.log('cookieBanner removed');
