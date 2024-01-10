@@ -1,10 +1,10 @@
 function removeElements() {	
-	var cookieBanner = document.querySelector('.kBprba > div:nth-child(1)');
+	var cookieBanner = document.querySelector('div.Layout-sc-1xcs6mc-0.kclbMN.consent-banner');
 	var cookieBannerClip = document.querySelector('div.bYReYr:nth-child(1)');
 	var footerBanner = document.getElementById('twilight-sticky-footer-root');
-	var chatButton = document.querySelector('.ScCoreButton-sc-ocjdkq-0.dulmVz.ScButtonIcon-sc-9yap0r-0.gmVOFh');
-	var startWatchBtn = document.querySelector('.gRbxbd > button:nth-child(1)');
-	var primeOffers = document.querySelector('.bZVrjx.prime-offers');
+	var chatButton = document.querySelector('button.ScCoreButton-sc-ocjdkq-0.eBrQii.ScButtonIcon-sc-9yap0r-0.bXAhAg');
+	var startWatchBtn = document.querySelector('button.ScCoreButton-sc-ocjdkq-0.ScCoreButtonPrimary-sc-ocjdkq-1.itFOsv.gmCwLG');
+	var primeOffers = document.querySelector('.prime-offers');
 	var signupGate = document.querySelector('.bHknAw');
 	var signupGate2 = document.querySelector('.bANGbT');
 	if (chatButton) {
